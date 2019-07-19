@@ -18,8 +18,8 @@ object WoobieDoobie extends App {
 
   val xa = Transactor.fromDriverManager[IO](driver, url, user, pass)
 
-  sql"select one from CSVREAD('classpath:test.csv');"
-    .query[String]    // Query0[String]
+  sql"select one, two from CSVREAD('classpath:test.csv') where flag = true;"
+    .query[(String, String)]    // Query0[String]
     .to[List]         // ConnectionIO[List[String]]
     .transact(xa)     // IO[List[String]]
     .unsafeRunSync    // List[String]

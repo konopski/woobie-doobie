@@ -1,8 +1,8 @@
-one,two,three,four,five
-one0,two0,three0,four0,five0
-one1,two1,three1,four1,five1
-one2,two2,three2,four2,five2
-one3,two3,three3,four3,five3
-one4,two4,three4,four4,five4
-one5,two5,three5,four5,five5
-one6,two6,three6,four6,five6
+one,two,three,four,five,flag
+one0,two0,three0,four0,five0,true
+one1,two1,three1,four1,five1,false
+one2,two2,three2,four2,five2,true
+one3,two3,three3,four3,five3,false
+one4,two4,three4,four4,five4,true
+one5,two5,three5,four5,five5,false
+one6,two6,three6,four6,five6,true
